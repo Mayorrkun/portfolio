@@ -9,7 +9,7 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
-    @vite(["resources/css/app.css"])
+    @vite(["resources/css/app.css","resources/js/app.js"])
 </head>
 <body class="relative">
 <div class="absolute top-0 z-50 w-full"><x-navbar></x-navbar></div>
