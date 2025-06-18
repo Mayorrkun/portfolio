@@ -1,4 +1,5 @@
 
+
 .navBar{
     display: flex;
     width: 100%;
@@ -42,5 +43,12 @@
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
+}
+
+.active-a{
+    border-bottom: 3px solid #eea0a0;
+    padding-left :15px;
+    padding-right: 15px;
+
 }
 

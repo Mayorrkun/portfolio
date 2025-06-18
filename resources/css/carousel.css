@@ -1,0 +1,40 @@
+
+.swiper-button-next{
+    padding: 30px;
+    background-color: transparent;
+    display: inline-flex;
+    border-radius: 100%;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 200px 0 0 0;
+    transition: background-color .5s ease-in-out;
+
+}
+
+.swiper-button-prev{
+    padding: 30px;
+    background-color: transparent;
+    display: inline-flex;
+    border-radius: 100%;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 200px 0 0 0;
+    transition: background-color .5s ease-in-out;
+
+}
+
+.swiper-button-prev:hover{
+    background-color: #eea0a0;
+}
+
+.swiper-button-next:hover{
+    background-color: #eea0a0;
+}
