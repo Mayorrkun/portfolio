@@ -11,7 +11,7 @@
     <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
     @vite(["resources/css/app.css","resources/js/app.js"])
 </head>
-<body class="relative">
+<body class="relative overflow-hidden min-h-screen">
 <div class="absolute top-0 z-50 w-full"><x-navbar></x-navbar></div>
 
 {{$slot}}

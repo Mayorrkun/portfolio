@@ -34,9 +34,12 @@
 .navList{
     display: flex;
     flex-direction: row;
-    gap:75px;
+    gap:50px;
     margin: 0 200px 0 auto;
     padding: 10px 20px;
+}
+.navList > li{
+    padding: 0 15px;
 }
 .navList > li > a{
     text-decoration: none;
@@ -47,8 +50,6 @@
 
 .active-a{
     border-bottom: 3px solid #eea0a0;
-    padding-left :15px;
-    padding-right: 15px;
 
 }
 

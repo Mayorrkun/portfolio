@@ -1,0 +1,24 @@
+.about-main{
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns:repeat(10, auto);
+    height: 500px;
+
+    div{
+        background-color: white;
+        height: 100%;
+        transition: background-color 1s ease-in-out;
+        }
+}
+
+.about-header{
+    opacity: 0;
+    position: absolute;
+    top: 40%;
+    left:12%;
+    z-index: 2;
+    font-size: 3rem;
+    font-family: Helvetica;
+    color: black;
+    font-weight: bold;
+}

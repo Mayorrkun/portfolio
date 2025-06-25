@@ -17,9 +17,13 @@ document.addEventListener('DOMContentLoaded', function(){
             element.classList.add('active-a');
         }
         else if( pathMatch !== '/' && path.startsWith(pathMatch)){
-           element.classList.remove('active-a');
+           element.classList.add('active-a');
+        }
+        else{
+            element.classList.remove('active-a');
         }
     }
 
     setActive('/', 'home');
+    setActive('/about', 'about');
 })

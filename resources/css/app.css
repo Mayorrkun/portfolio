@@ -1,6 +1,7 @@
 @import 'tailwindcss';
 @import './navbar.css';
 @import './carousel.css';
+@import './about.scss';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

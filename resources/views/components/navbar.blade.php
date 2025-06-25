@@ -2,9 +2,9 @@
     <span>Mayokun.</span>
 
     <ul class="navList">
-        <li><a class="" id="home" href="{{route('home')}}">Home</a></li>
-        <li><a class="" id="About" href="#">About</a></li>
-        <li><a class="" id="Contact" href="#">Contact</a></li>
-        <li><a class="" id="Test" href="#">Test</a></li>
+        <li id="home"><a class=""  href="{{route('home')}}">Home</a></li>
+        <li id="about"><a class=""  href="{{route('about')}}">About</a></li>
+        <li id="contact"><a class=""  href="#">Contact</a></li>
+        <li id="test"><a class=""  href="#">Test</a></li>
     </ul>
 </nav>
